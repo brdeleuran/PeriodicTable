@@ -1,0 +1,33 @@
+/* .box {
+  float: left;
+  width: 5.5vw;
+  height: 5.5%;
+  border-style: solid;
+} */
+
+.gridRow{
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-gap: 10px;
+}
+
+.gridColumn{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-gap: 10px;
+}
+
+/* .gridUnderRow{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 50px;
+  margin-left: 10%;
+
+}
+
+.gridUnderColumn{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-gap: 10px;
+} */
